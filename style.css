@@ -1,0 +1,695 @@
+.inicio {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    height: 40%;
+    gap: 10px;
+}
+
+.logo {
+    grid-column: 1/2;
+    grid-row: 1/8;
+
+
+}
+
+.logo img {
+    width: 100%;
+    height: 99%;
+}
+
+.banner {
+    grid-column: 2/10;
+    grid-row: 1/8;
+    height: 100px;
+    background-color: teal;
+
+    text-align: center;
+    background: url('./img/code-8779051_640.webp') no-repeat center center;
+    background-size: cover;
+    padding:25px;
+    text-align: center;
+}
+
+.banner h2 {
+    position: relative; /* Para que el h2 esté encima del banner */
+    margin: 0;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+nav {
+    width: 80%;
+    text-decoration: none;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: right;
+    margin-left: 15%;
+    width: 100%;
+    gap: 40px;
+    text-decoration: none;
+    font-size: 30px;
+
+}
+
+nav ul span {
+    width: 1px;
+    height: 20px;
+    background-color: currentColor;
+    text-decoration: none;
+}
+
+.banner3 {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 20px;
+    text-align: center;
+    background-color: white;
+
+}
+
+.banner1 {
+    grid-column: 1/3;
+    background-color: tan;
+    justify-content: center;
+}
+
+.banner1 h2 {
+    margin-top: 120px;
+}
+
+.boton {
+    border-radius: 3cm;
+    background-color: teal;
+    height: 30px;
+    width: 150px;
+    margin-left: 25%;
+    margin-top: 25px;
+    width: 150px;
+}
+
+.banner2 {
+    grid-column: 3/11;
+    background-color: teal;
+    font-size: 30px;
+}
+
+.img1 {
+    width: 450px;
+    height: 300px;
+    gap: 20px;
+    border-radius: 3cm;
+}
+
+.img2 {
+    width: 400px;
+    height: 300px;
+    gap: 20px;
+    border-radius: 3cm;
+}
+
+.img3 {
+    width: 450px;
+    height: 300px;
+    border-radius: 3cm;
+}
+
+.profesores {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 20px;
+
+
+}
+
+.img4 {
+    width: 300px;
+    height: 300px;
+    border: 5px solid white;
+}
+
+.img5 {
+    width: 350px;
+    height: 300px;
+    border: 5px solid white;
+
+}
+
+.img6 {
+    width: 350px;
+    height: 300px;
+    border: 5px solid white;
+
+
+}
+
+.profesor {
+    grid-column: 1/5;
+    background-color: black;
+    text-align: center;
+    border: 5px solid beige;
+
+}
+
+.perfil {
+    grid-column: 3/7;
+    background-color: teal;
+    border: 5px solid black;
+}
+
+.perfil h1 {
+    font-size: 40px;
+}
+
+.perfil h2 {
+    font-size: 40px;
+}
+
+.perfil p {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.logros {
+    grid-column: 5/11;
+    background-color: tan;
+    border: 5px solid black;
+}
+
+.logros h1 {
+    font-size: 40px;
+}
+
+.logros h3 {
+    font-size: 40px;
+
+}
+
+.logros p {
+    font-size: 40px;
+}
+
+.videos {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 20px;
+    background-color: black;
+    border: 5px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.estruc {
+    width: 50%;
+}
+
+.imagen {
+    margin-left: 35%;
+    padding-top: 50px;
+
+}
+
+.estructura1 {
+    text-align: center;
+}
+
+.video2 {
+    text-align: center;
+    color: teal;
+}
+
+.control1 {
+    background-color: teal;
+}
+
+.inscripciones {
+    width: 50%;
+    height: 700px;
+    margin-left: 25%;
+    border: 2px solid black;
+    border-radius: 2cm;
+    background-color: teal;
+}
+
+.formulario {
+    margin-left: 30%;
+}
+
+.formulario button {
+    padding: 20px;
+    margin-left: 15px;
+}
+
+.nosotros {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}
+
+.mision {
+    grid-column: 1/4;
+    text-align: center;
+    border: 5px solid black;
+    background-color: teal;
+}
+
+.vision {
+    grid-column: 4/7;
+    text-align: center;
+    border: 5px solid black;
+}
+
+.valores {
+    grid-column: 7/10;
+    text-align: center;
+    border: 5px solid black;
+    background-color: teal;
+}
+
+.mision img {
+    width: 30%;
+}
+
+.vision img {
+    width: 30%;
+}
+
+.valores img {
+    width: 30%;
+}
+
+.quit h1 {
+    color: chocolate;
+    text-align: center;
+
+}
+
+.quit p {
+    text-align: center;
+
+}
+
+.nosotros h1 {
+    color: chocolate;
+    text-align: center;
+
+}
+
+.nosotros p {
+    text-align: center;
+
+}
+
+.servicios h1 {
+    color: chocolate;
+    text-align: center;
+
+}
+
+.nosi {
+    background-color: tan;
+}
+
+.control {
+    background-color: teal;
+}
+
+.control2 {
+    background-color: teal;
+}
+
+footer {
+    background-color: black;
+    color: teal;
+    padding: 20px 0;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    width: 30%;
+}
+
+.footer-section h3 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: none;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.estruc {
+    border: 5px solid black;
+}
+
+.profesor h1 {
+    color: #ddd;
+    font-size: 40px;
+}
+
+.formaciones {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    font-size: 30px;
+}
+
+.formacion1 {
+    grid-column: 1/4;
+    border: 5px solid teal;
+    background-color: tan;
+}
+
+.formacion2 {
+    grid-column: 4/7;
+    border: 5px solid teal;
+    background-color: tan;
+}
+
+.formacion3 {
+    grid-column: 7/10;
+    border: 5px solid teal;
+    background-color: tan;
+}
+
+.formaciones h1 {
+    color: teal;
+    text-align: center;
+    font-size: 40px;
+}
+
+.formaciones img {
+    border-radius: 3cm;
+    width: 70%;
+}
+
+.formacion {
+    text-align: center;
+    background-color: tan;
+    border: 5px solid teal;
+    font-size: 40px;
+}
+
+.formacion h1 {
+    text-align: center;
+    color: teal;
+    font-size: 40px;
+}
+
+.programas h2 {
+    color: teal;
+    text-align: center;
+}
+.estructura1 h1{
+    color: teal;
+}
+.estruc1 {
+    border-radius: 3cm;
+    width: 40%;
+    margin-right: 50%;
+}
+
+.programa1 h2 {
+    text-align: center;
+    color: teal;
+}
+
+.programban {
+    background-color: tan;
+    text-align: center;
+}
+
+
+.programa1 h1 {
+    text-align: center;
+    color: teal;
+}
+
+.proyecto {
+    width: 60%;
+    margin-left: 20%;
+
+}
+
+.desarrollo {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 50px;
+
+}
+
+.emprendimiento {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 70px;
+}
+
+.videos {
+    gap:180px;
+}
+
+.video1 {
+
+    border: #fff 5px solid;
+}
+
+.video3 {
+    border: #fff 5px solid;
+
+}
+
+.video4 {
+    border: #fff 5px solid;
+}
+
+.imagen h1 {
+    font-size: 50px;
+
+}
+
+.programas h1 {
+    font-size: 60px;
+}
+
+.programas h2 {
+    font-size: 60px;
+}
+
+.programas p {
+    font-size: 30px;
+}
+
+
+.expli {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.expli1 {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.expli2 {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.formulario {
+    color: black;
+    font-size: 20px;
+}
+
+.formulario input {
+    border: 5px solid teal;
+    border-radius: 5cm;
+}
+
+.formulario button {
+    width: 200px;
+    border-radius: 3cm;
+}
+
+.formulario label {
+    border: 5px solid teal;
+    border-radius: 5cm;
+}
+
+.formulario select {
+    border: 5px solid teal;
+    border-radius: 5cm;
+}
+
+.nosi {
+    text-align: center;
+    font-size: 30px;
+    border-radius: 2cm;
+}
+
+.nosi h1 {
+    font-size: 40px;
+}
+
+.imgs {
+    width: 500px;
+}
+
+.logo2 {
+    width: 40%;
+}
+
+.control p {
+    font-size: 40px;
+}
+
+.control h1 {
+    font-size: 60px;
+    color: #ddd;
+
+}
+
+.control h2 {
+    font-size: 40px;
+}
+
+.videoe {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.control1 p {
+    font-size: 40px;
+}
+
+.control1 h1 {
+    font-size: 60px;
+    color: #ddd;
+
+}
+
+.control1 h2 {
+    font-size: 40px;
+    color: #ddd;
+}
+
+.control2 p {
+    font-size: 40px;
+}
+
+.control2 h1 {
+    font-size: 55px;
+    color: #ddd;
+
+}
+
+.control2 h2 {
+    font-size: 40px;
+    color: #ddd;
+}
+
+.profesores23 {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    border: black 5px solid;
+}
+
+.lucia {
+    grid-column: 1/4;
+    border: black 5px solid;
+    background-color: tan;
+    text-align: center;
+    font-size: 150%;
+}
+
+.lucia img {
+    width: 50%;
+    margin-left: 5%;
+    border-radius: 2cm;
+
+}
+
+.alvaro {
+    grid-column: 4/7;
+    border: black 5px solid;
+    background-color: teal;
+    text-align: center;
+    font-size: 150%;
+}
+
+.alvaro img {
+    width: 80%;
+    border-radius: 3cm;
+}
+
+.sofia {
+    grid-column: 7/10;
+    border: black 5px solid;
+    text-align: center;
+    font-size: 150%;
+    background-color: tan;
+}
+
+.sofia img {
+    width: 80%;
+    border-radius: 3cm;
+}
+
+.profesor38 {
+    text-align: center;
+    background-color: tan;
+    border: black 6px solid;
+    font-size: 150%;
+}
+.nosi p{
+    font-size: 50px;
+}
+.nosi h1{
+    font-size: 60px;
+}
+.nosi img{
+    border-radius: 3cm;
+}
+.struc{
+    border-radius: 3cm;
+}
